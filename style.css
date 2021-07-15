@@ -1,0 +1,39 @@
+ul{
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+
+}
+
+li{
+    border: 3px solid #7C83FD;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    height: 15;
+    width: 25vw;
+    border-radius: 5px;
+    padding-left: 10px;
+   
+    
+}
+#dataList button{
+    background-color:#bb4848;
+    height: 4vh;
+    width: 5vh;
+    align-items: center;
+    padding-top: 2px;
+    margin-right: 3px;
+    margin: 5px;
+    text-align: center;
+      
+}
+input{
+    border-radius: 6px;
+    width: 20vw;
+    height: 6vh;
+}
+#dataList button i{
+    
+}
+
