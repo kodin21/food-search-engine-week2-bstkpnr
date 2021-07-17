@@ -10,7 +10,8 @@ let liste = document.querySelector("#liste");
 fetch("https://jsonplaceholder.typicode.com/todos")
   .then((response) => response.json())
   .then((data) => {
-    
+    setTimeout(()=>{
+
       data.map((item) => {
         let foodList = document.createElement("li");
         let tag = document.createElement("button");
@@ -20,6 +21,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
         console.log(foodList);
         tag.innerHTML = `<i class="bi bi-suit-heart-fill"></i>`;
       });
+    },3000)
     
 
     //favori ekle-çıkar işlemi
