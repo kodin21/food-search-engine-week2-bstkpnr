@@ -901,6 +901,11 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     "to-fast-properties" "^2.0.0"
 
+"@fortawesome/fontawesome-free@^5.15.3":
+  "integrity" "sha512-rFnSUN/QOtnOAgqFRooTA3H57JLDm0QEG/jPdk+tLQNL/eWd+Aok8g3qCI+Q1xuDPWpGW/i9JySpJVsq8Q0s9w=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.3.tgz"
+  "version" "5.15.3"
+
 "@iarna/toml@^2.2.0":
   "integrity" "sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg=="
   "resolved" "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz"

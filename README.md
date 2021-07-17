@@ -1,3 +1,26 @@
+### FOOD-SEARCH
+<p align="center">
+<img src="./gif/foodwork.gif">
+</p>
+
+[Beste Tokpınar's Github Page](https://github.com/bstkpnr "Beste Tokpınar's Github Page")
+
+
+### Projede bir takım hatalar ve eksiklikler oluştu.
+<p align="center">
+<img src="./gif/cry.gif">
+</p>
+
+
+
+
+
+
+
+
+
+
+
 ### ODEV ONCESI
 Eğer bu repoyu kullanarak kendi bilgisayarinizda development yapmak isterseniz sirasiyla,
 1) Repoyu clonelayin
