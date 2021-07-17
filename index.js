@@ -1,27 +1,25 @@
 //Loading sona erme
-setTimeout(function () {
-  $("#loading").remove();
-}, 2900);
-
+//Loading sona erme
+let loading = document.getElementById("loading")
+loading.style.display = "block"
 //verileri listeleme
 let ul = document.querySelector("#dataList");
 let liste = document.querySelector("#liste");
 
-fetch("https://jsonplaceholder.typicode.com/todos")
+setTimeout(() => {
+  fetch("https://jsonplaceholder.typicode.com/todos")
   .then((response) => response.json())
   .then((data) => {
-    setTimeout(()=>{
-
       data.map((item) => {
         let foodList = document.createElement("li");
         let tag = document.createElement("button");
         foodList.innerHTML = item.title;
         ul.appendChild(foodList);
         foodList.appendChild(tag);
-        console.log(foodList);
-        tag.innerHTML = `<i class="bi bi-suit-heart-fill"></i>`;
+        tag.innerHTML = '<i class="bi bi-suit-heart-fill"></i>'
       });
-    },3000)
+    
+    
     
 
     //favori ekle-çıkar işlemi
@@ -71,6 +69,8 @@ fetch("https://jsonplaceholder.typicode.com/todos")
         console.log("tıkla bakalım ");
       });
   });
+}, 3000);
+
 
 //Kullanıcı bilgisinin gösterimi
 setTimeout(function () {
@@ -79,7 +79,9 @@ setTimeout(function () {
     .then((nameData) => {
       document.getElementById("myName").innerHTML =
         "Merhaba, " + nameData.name + "<br>" + " Hoşgeldiniz";
+        loading.style.display = "none"
     });
 }, 3000);
+
 
 
